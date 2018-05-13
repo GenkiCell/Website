@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Genkicell - Home</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+<link rel="icon" href="images/favicon.png" type="image/png">
+<link rel="stylesheet" href="css/css.css">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<script src="js/jquery-3.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/main.js"></script>
+</head>
+
+<body>
+<header>
+	<div class="header-wrapper">
+		<div class="header-logo">
+			<a href="homech.html">
+			<img class="header-logo-full" src="images/logo8.png" alt="Genkicell logo">
+				<img class="header-logo-icon" src="images/icon.png" alt="Genkicell logo">
+			</a>
+		</div>
+		<div class="header-nav-open"><a href="#" onclick="navToggle();return !1"><img src="images/menu-open.svg" alt=""></a></div>
+		<div class="header-nav">
+			<div class="header-nav-icons">
+				<div class="header-nav-logo-icon"><a href="#"><img src="images/icon1.png" alt="Genkicell logo"></a></div>
+				<div class="header-nav-close"><a href="#" onclick="navToggle(!1);return !1"><img src="images/close.png" alt=""></a></div>
+			</div>
+			<div class="header-menu">
+				<nav>
+					<nav>
+					<a href="homech.html" >HOME</a>
+					<a href="documentsch.html">DOCUMENTS</a>
+					<a href="teamch.html" class="menu-current">TEAM</a>
+					
+					<a  href="videoch.html">VIEDO</a>
+					<!-- <a href="./contact.html">Contact</a> -->
+				</nav>
+			</div>
+			<div class="header-lang"><a href="" onclick="langSelectToggle();return !1">en &nbsp;<img src="images/arrow-lang.svg" alt="" style="width:13px"></a></div>
+			<div class="header-lang-select">
+				<div class="header-lang-select-label">
+					<a href="#" class="floatr" onclick="langSelectToggle(!1);return !1"><img src="images/cross-close.svg" alt="" style="width:9px"></a>
+					Change language
+				</div>
+				<div class="header-lang-select-list">
+					<ul>
+						<li><a href="home.html" class="lang-current">JAP</a></li>
+						<li><a href="homeen.html" class="lang-current">ENG</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	
+		<script>$(document).ready(moreArrowBounce);</script>
+	</div>
+</header>
+
+<div class="wrapper wrapper-pad alignc">
+	<h2>核心團隊</h2>
+	<div class="slider team-slider">
+		<div class="slider-left"><a href="#" onclick="sliderItemSelect(this, '-1');moreToggle('team-profiles', this);return !1"><img src="images/arrow-slider-left-grey.svg" alt=""></a></div>
+		<div>
+			<div class="slider-item slider-item-sel col-3">
+				<div><img src="images/粟田翔太.png" alt=""></div>
+				<h3>粟田 翔太</h3>
+				<p>CEO 立命館大學碩士</p>
+				<p>
+					<a href="#" class="button" onclick="moreToggle('team-profiles', 0);return !1">
+						<span class="team-profiles-open">Read more</span>
+						<span class="team-profiles-close hide">Close</span>
+					</a>
+				</p>
+			</div>
+			<div class="slider-item col-3">
+				<div><img src="images/佐佐木太裕.png" alt=""></div>
+				<h3>佐々木　太裕</h3>
+				<p>CRO</p>
+				<p>
+					<a href="#" class="button" onclick="moreToggle('team-profiles', 1);return !1">
+						<span class="team-profiles-open">Read more</span>
+						<span class="team-profiles-close hide">Close</span>
+					</a>
+				</p>
+			</div>
+			<div class="slider-item col-3">
+				<div><img src="images/四条能伸.png" alt=""></div>
+				<h3>四條 能伸</h3>
+				<p>CTO 大阪大學碩士</p>
+				<p>
+					<a href="#" class="button" onclick="moreToggle('team-profiles', 2);return !1">
+						<span class="team-profiles-open">Read more</span>
+						<span class="team-profiles-close hide">Close</span>
+					</a>
+				</p>
+			</div>
+			
+		</div>
+		<div class="slider-right"><a href="#" onclick="sliderItemSelect(this, '+1');moreToggle('team-profiles', this);return !1"><img src="images/arrow-slider-right-grey.svg" alt=""></a></div>
+	</div>
+</div>
+
+<div class="bg-grad white">
+	<div id="team-profiles" class="wrapper wrapper-pad alignc hide">
+		<div class="content-max-width">
+			<h2>粟田 翔太</h2>
+			<p>CEO 立命館大學碩士</p>
+			<p>東利多財團少東家。 2009加入SynergyMarketing，從事雲服務業務企業客戶管理系統和網絡營銷推廣銷售工作，為多家日本及海外醫院客戶提供數據存儲、管理與分析服務。 2013年成立安達株式會社並進入中國市場，期間擔任董事一職，負責公司整體商務、營銷工作，並參與了城市政策論壇，任內積極拓展了跨國商業合作，在To B、C端業務精湛，同時在日本擁有極大合作資源。 2017年 與日本樂天股份有限公司合作共同參與跨境醫療業務，同時與日本相關公司合作，拓展物聯網健康設備研發生產業務。同年，與原日本厚生勞動省老健局局長中村秀一、原內閣參事官、厚生勞動省大臣官方長大谷泰夫及原日本NTT集團前副社長宇治則孝等人共同創立JCDA (日本高齡社會預防醫療研究協會)，並擔任理事一職，全面負責並管理社團機構工作。
+						</p>
+		</div>
+		<div class="content-max-width">
+			<h2>佐々木　太裕</h2>
+			<p>CRO</p>
+			<p> 原日本三大銀行之一的瑞穗銀行融資部經理，後進入瑞穗證券風控部門，主管上市公司的資金審查等業務。 2011年獲瑞穗銀行營業部最優秀獎，2012年獲瑞穗銀行法人部門最優秀獎，2013年擔任瑞穗銀行對軟銀集團債券顧問，同年度調度資金2000億日元， 2015年後獲瑞穗證券社長獎後獨立出來，成立自己的投資顧問公司，年間調度資金100億日元的同時為客戶提供優質的風控服務。 </p>
+		</div>
+		<div class="content-max-width">
+			<h2>四條 能伸</h2>
+			<p>CTO 大阪大學碩士</p>
+			<p>  原軟銀（Softbank）旗下金融財團SBI虛擬貨幣公司LastRoots CTO。自主設計，研發，並發行上市了數字貨幣c0ban，同時為其打造了專屬的日元／c0ban交易平台，日本天才技術協會成員。</p>
+		</div>
+	</div>
+</div>
+
+
+<div class="wrapper wrapper-pad alignc">
+	<div class="slider team-slider">
+		<div class="slider-left"><a href="#" onclick="sliderItemSelect(this, '-1');moreToggle('team-profiles-01', this);return !1"><img src="images/arrow-slider-left-grey.svg" alt=""></a></div>
+		<div>
+			
+			<div class="slider-item col-3">
+				<div><img src="images/李润陆.png" ></div>
+				<h3>Charles Li</h3>
+				<p>市場運營顧問</p>
+				<p>
+					<a href="#" class="button" onclick="moreToggle('team-profiles-01', 0);return !1">
+						<span class="team-profiles-open">Read more</span>
+						<span class="team-profiles-close hide">Close</span>
+					</a>
+				</p>
+			</div>
+			<div class="slider-item slider-item-sel col-3">
+				<div><img src="images/柴田谕.png"></div>
+				<h3>柴田 諭</h3>
+				<p>日本政策研究諮詢顧問</p>
+				<p>
+					<a href="#" class="button" onclick="moreToggle('team-profiles-01', 1);return !1">
+						<span class="team-profiles-open">Read more</span>
+						<span class="team-profiles-close hide">Close</span>
+					</a>
+				</p>
+			</div>
+			<div class="slider-item slider-item-sel col-3">
+				<div><img src="images/藤井伸一.png" ></div>
+				<h3>藤井 伸一</h3>
+				<p>媒體運營特聘專員</p>
+				<p>
+					<a href="#" class="button" onclick="moreToggle('team-profiles-01', 2);return !1">
+						<span class="team-profiles-open">Read more</span>
+						<span class="team-profiles-close hide">Close</span>
+					</a>
+				</p>
+			</div>
+		</div>
+		<div class="slider-right"><a href="#" onclick="sliderItemSelect(this, '+1');moreToggle('team-profiles-01', this);return !1"><img src="images/arrow-slider-right-grey.svg" alt=""></a></div>
+	</div>
+</div>
+
+<div class="bg-grad white">
+	
+	<div id="team-profiles-01" class="wrapper wrapper-pad alignc hide">
+		
+		<div class="content-max-width">
+			<h2>Charles Li</h2>
+			<p>市場運營顧問</p>
+			<p>日本著名私立大學早稻田大學政治經濟系畢業，原日本煙草（Corporate Venture Capital)大中華地區、美國地區負責人。主要負責於區塊鏈，人工智能，大健康等項目的投資運營。同時，負責執行並管理日本煙草與NASA合作的健康項目。 </p>
+		</div>
+		<div class="content-max-width">
+			<h2>柴田 諭  </h2>
+			<p>日本政策研究諮詢顧問</p>
+			<p>曾擔任原自治大臣佐藤觀樹的秘書，成為政治家，在政界積攢了一系列的人脈，2006年後，獨立成立了諮詢公司，為東急集團、Cyber agent集團等知名企業提供各類資訊服務。
+</p>
+		</div>
+		
+		<div class="content-max-width">
+			<h2>藤井 伸一</h2>
+			<p>媒體運營特聘專員</p>
+			<p> 1992年創立株式會社DR後，多年從事廣告代理，廣告企劃業務與日本大型的藝人事務所，電視台，出版社有著很深的聯繫。公司平均年收75億日元。於2017年卸任所有職務加入團隊。 </p>
+		</div>
+	</div>
+</div>
+<div class="wrapper wrapper-pad alignc">
+	<div class="slider team-slider">
+		<div class="slider-left"><a href="#" onclick="sliderItemSelect(this, '-1');moreToggle('team-profiles-02', this);return !1"><img src="images/arrow-slider-left-grey.svg" alt=""></a></div>
+		<div>
+			
+			
+			<div class="slider-item slider-item-sel col-3">
+				<div><img src="images/吉田圭一郎.png" alt=""></div>
+				<h3>吉田  圭一郎   </h3>
+				<p>北京大學、BBT MBA 2019年3月取得予定</p>
+				<p>
+					<a href="#" class="button" onclick="moreToggle('team-profiles-02', 0);return !1">
+						<span class="team-profiles-open">Read more</span>
+						<span class="team-profiles-close hide">Close</span>
+					</a>
+				</p>
+			</div>
+		</div>
+		<div class="slider-right"><a href="#" onclick="sliderItemSelect(this, '+1');moreToggle('team-profiles-02', this);return !1"><img src="images/arrow-slider-right-grey.svg" alt=""></a></div>
+	</div>
+</div>
+
+<div class="bg-grad white">
+	<div id="team-profiles-02" class="wrapper wrapper-pad alignc hide">
+		
+		
+		<div class="content-max-width">
+			<h2>吉田  圭一郎  </h2>
+			<p>北京大學、BBT MBA 2019年3月取得予定</p>
+			<p> 北京大學日本人留學生會第7代會長，原野村證券銷售部，高級分析師，在日本風險基金負責日本醫療項目的M&A，精通中日英三國語言。
+</p>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+<div class="bg-grad" style="background:#2c2e38;">
+	<div class="wrapper wrapper-pad alignc">
+		
+		<div class="slider team-slider">
+			<div>
+
+				<div class="slider-item slider-item-sel col-12">
+					<div><img src="images/jcda.png" alt="理事长：中村 秀一"></div>
+					<h3>日本高齡社會預防醫療研究協會</h3>
+					<p>理事長：中村 秀壹</p>
+					<p>理事成員（部分）：粟田 翔大、大谷 泰夫、宇治 則孝、壹般社團法人醫療看護政策研究中心等。</p>
+					<div class="text">
+		             主要是構思研究針對於高齡社會帶來的慢性病的解決方案，運用人工智能和IOE（internet of everything）的手段來預防和檢測疾病的機構。
+			理事長中村秀壹先生曾擔任厚生勞動省老健局長壹職，常年工作於醫療健康行業，致力於推動健康行業的進步與發展。
+			大谷泰夫先生曾擔任國立研究開發法人，日本醫療研究機構理事，其早年曾在政界擔任內閣參事官、厚生勞動省雇用均等・兒童家庭局長、厚生勞動省大臣官房長、厚生勞動省醫政局長等職務。
+			宇治則孝先生長期擔任NTT集團前副社長，現任企業情報推進協會會長 ，在信息科技業內具有極強影響力。
+              		</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<footer>
+	<div class="wrapper">
+		<div class="footer-logo-links">
+			<div class="footer-logo"><img src="images/logo8.png" alt="Genkicell logo"></div>
+			<nav class="footer-links">
+				<div>
+					<h2><a href="mailto:BD@genkicell.io">Business Development</a></h2>
+					
+				</div>
+				<div>
+					<h2><a href="https://t.me/GenkicellOfficalGroup">Join Communitv</a></h2>
+					
+				</div>
+			</nav>
+		</div>
+
+		<div class="footer-social">
+			<a href="https://t.me/GenkicellOfficalGroup" target="_blank"><img src="images/icon-social-telegram.svg" alt="Telegram"></a>
+			<a href="https://twitter.com/@Genkicell" target="_blank"><img src="images/icon-social-twitter.svg" alt="Twitter"></a>
+			<a href="https://www.facebook.com/Genkicellchain" target="_blank"><img src="images/icon-social-facebook.svg" alt="Facebook"></a>
+			<a href="https://www.reddit.com/r/Genkicell/" target="_blank"><img src="images/icon-social-reddit.svg" alt="Reddit"></a>
+			<a href="https://medium.com/@Genkicell" target="_blank"><img src="images/icon-social-medium.svg" alt="Medium"></a>
+			<!-- 
+			<a href="#" target="_blank"><img src="./images/icon-social-wechat.svg" alt="WeChat"></a>
+			<a href="#" target="_blank"><img src="./images/icon-social-weibo.svg" alt="Weibo"></a>
+			 -->
+		</div>
+	</div>
+	<div class="footer-copyright">© Genkicell  Foundation All rights reserved.</div>
+</footer>
+
+
+</body></html>

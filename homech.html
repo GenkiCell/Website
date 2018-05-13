@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Genkicell - Home</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+<link rel="icon" href="images/favicon.png" type="image/png">
+<link rel="stylesheet" href="css/css.css">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<script src="js/jquery-3.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/main.js"></script>
+</head>
+
+<body>
+<header>
+	<div class="header-wrapper" style="height: 1000px;">
+		<div class="header-logo">
+			<a href="homech.html">
+				<img class="header-logo-full" src="images/logo.gif" alt="Genkicell logo">
+				<img class="header-logo-icon" src="images/logo.gif" alt="Genkicell logo">
+			</a>
+		</div>
+		<div class="header-nav-open"><a href="#" onclick="navToggle();return !1"><img src="images/menu-open.svg" alt=""></a></div>
+		<div class="header-nav">
+			<div class="header-nav-icons">
+				<div class="header-nav-logo-icon"><a href="homech.html"><img src="images/icon1.png" alt="Genkicell logo"></a></div>
+				<div class="header-nav-close"><a href="#" onclick="navToggle(!1);return !1"><img src="images/menu-close.svg" alt=""></a></div>
+			</div>
+			<div class="header-menu">
+				<nav>
+					<nav>
+					<a href="homech.html" class="menu-current">HOME</a>
+					<a href="documentsch.html">DOCUMENTS</a>
+					<a href="teamch.html" >TEAM</a>
+					
+					<a  href="videoch.html">VIEDO</a>
+					<!-- <a href="./contact.html">Contact</a> -->
+				</nav>
+			</div>
+			<div class="header-lang"><a href="" onclick="langSelectToggle();return !1">en &nbsp;<img src="images/arrow-lang.svg" alt="" style="width:13px"></a></div>
+			<div class="header-lang-select">
+				<div class="header-lang-select-label">
+					<a href="#" class="floatr" onclick="langSelectToggle(!1);return !1"><img src="images/cross-close.svg" alt="" style="width:9px"></a>
+					Change language
+				</div>
+				<div class="header-lang-select-list">
+					<ul>
+						<li><a href="home.html" class="lang-current">JAP </a></li>
+						<li><a href="homeen.html" class="lang-current">ENG </a></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="header-content">
+			<img src="images/3anim.gif">
+		</div>
+		<script>$(document).ready(moreArrowBounce);</script>
+	</div>
+</header>
+
+<div class="wrapper wrapper-pad article white">
+	<div class="col-3">
+		<div id="home-ball-div">
+			<div id="home-ball" style="bottom: 50px;"><img src="images/4.png" alt=""></div>
+			<div id="home-ball-shadow"><img src="images/bouncing-ball-shadow.png" alt="" style="display: inline-block; width: 100.008%; overflow: hidden;"></div>
+			<script>$(document).ready(homeBallBounce);</script>
+		</div>
+	</div>
+	<div class="col-3-2">
+		<h2>什麽是GCL?</h2>
+		<p>Genkicell Chain是壹種通過區塊鏈技術可實現物聯網硬件設備數據登入，通過日常體征、環境空間、</p>
+		<p>醫療信息等數據流輔助醫療機構實現對用戶身體狀況的長期關註，及時有效的實施幹預數據日常</p>
+		<p>化被标记的同时，可通过医疗联合体等形式实现数据流转，提高医疗机构固定客户率。</p>
+		<p>而商業機構則可在授權情況下獲得標記後的價值數據。</p>
+		<!-- <p>一方で、医療会社や研究機関にとって、データの利用許可があれば、マークされたの価値のあるデータを獲得</p>
+		<p>することができる。</p> -->
+		<p id="home-what-read-more" class="alignc-m"><a href="#" class="button" onclick="$('#home-what-read-more,#home-what-more').toggle();return !1">了解更多</a></p>
+		<div id="home-what-more" class="br hide">
+			<p>因此，Genkicell 將致力實現個人、醫療機構、商業機構三者間被標記後價值數據的流轉工作，實現鏈內用戶共同收益。</p>
+			<!-- <p>ユーザーの間にデータの価値が実現され、流通することにより、ゲンキセールチェン内の</p>
+			<p>共通収益を実現することができる。</p>
+			 -->
+		</div>
+	</div>
+</div>
+
+<div class="wrapper">
+	<div id="home-why" class="shift-on-hover">
+		<div id="home-why-text" class="col-2 bg-grad article white">
+			<div id="home-why-Genkicell" class="content-pad shift shift-right">
+				<h2>GCL的優勢是什麽？</h2>
+				<ul>
+					<li style="list-style: none">根據現有的大健康產業的瓶頸，GCL在現有的區塊鏈基礎上做出了如下革新以構建壹個大健康價值生態系統。</li>
+					<li>黑箱流程設計：保證數據提供者的隱私與安全。</li>
+					<li>權重算法：通過考量診斷方的歷史行為的權重優化整個生態中的低效率環節和杜絕惡意行為。</li>
+					<li>共識機制：改進的DPoS權重相關的投票機制可以有效地防止第三方的惡意行為，並相比原有的DPoS更加去信任化。</li>
+					<li>多方數據標記：獨有的數據結構將實現多方驗證數據的基本功能，同時保證生態系統內數據的可信程度與有效性。</li>
+				</ul>
+			</div>
+		</div>
+		<div id="home-why-images" class="col-2">
+			<div class="shift shift-left" data-delay="200"><img src="images/5.png" alt=""></div>
+			
+		</div>
+	</div>
+	<div class="slider-pad bg-grey white alignc">
+		<h2>GCL用戶都是誰？</h2>
+		<div id="home-users" class="slider">
+			<div class="slider-left"><a href="#" onclick="sliderItemSelect(this, '-1');return !1"><img src="images/arrow-slider-left-grey.svg" alt=""></a></div>
+			<div>
+				<div class="slider-item slider-item-sel col-5">
+					<div><img src="images/互联网终端.png" alt="IOTターミナル"></div>
+					<p>物聯網終端</p>
+				</div>
+				
+				<div class="slider-item col-5">
+					<div><img src="images/医疗服务机构.png" alt="医療機関"></div>
+					<p>醫療服務機構 </p>
+				</div>
+				<div class="slider-item col-5">
+					<div><img src="images/第三方数据处理机构.png" alt="ビッグデータ会社 "></div>
+					<p>第三方數據處理機構 </p>
+				</div>
+				<div class="slider-item col-5">
+					<div><img src="images/科研机构.png" alt="研究機関"></div>
+					<p>科研機構</p>
+				</div>
+				<div class="slider-item col-5">
+					<div><img src="images/政府机关.png" alt="政府、組織、民間団体など"></div>
+					<p>政府組織</p>
+				</div>
+				<div class="slider-item col-5">
+					<div><img src="images/医疗人工智能.png" alt="医療人工知能企業"></div>
+					<p>醫療人工智能企業</p>
+				</div>
+				<div class="slider-item col-5">
+					<div><img src="images/保险机关.png" alt="保険業界"></div>
+					<p>保險行業</p>
+				</div>
+
+			</div>
+			<div class="slider-right"><a href="#" onclick="sliderItemSelect(this, '+1');return !1"><img src="images/arrow-slider-right-grey.svg" alt=""></a></div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<footer>
+	<div class="wrapper">
+		<div class="footer-logo-links">
+			<div class="footer-logo"><img src="images/logo8.png" alt="Genkicell logo"></div>
+			<nav class="footer-links">
+				<div>
+					<h2><a href="mailto:BD@genkicell.io">Business Development</a></h2>
+					
+				</div>
+				<div>
+					<h2><a href="https://t.me/GenkicellOfficalGroup">Join Communitv</a></h2>
+					
+				</div>
+			</nav>
+		</div>
+
+		<div class="footer-social">
+			<a href="https://t.me/GenkicellOfficalGroup" target="_blank"><img src="images/icon-social-telegram.svg" alt="Telegram"></a>
+			<a href="https://twitter.com/@Genkicell" target="_blank"><img src="images/icon-social-twitter.svg" alt="Twitter"></a>
+			<a href="https://www.facebook.com/Genkicellchain" target="_blank"><img src="images/icon-social-facebook.svg" alt="Facebook"></a>
+			<a href="https://www.reddit.com/r/Genkicell/" target="_blank"><img src="images/icon-social-reddit.svg" alt="Reddit"></a>
+			<a href="https://medium.com/@Genkicell" target="_blank"><img src="images/icon-social-medium.svg" alt="Medium"></a>
+			<!-- 
+			<a href="#" target="_blank"><img src="./images/icon-social-wechat.svg" alt="WeChat"></a>
+			<a href="#" target="_blank"><img src="./images/icon-social-weibo.svg" alt="Weibo"></a>
+			 -->
+		</div>
+	</div>
+	<div class="footer-copyright">© Genkicell  Foundation All rights reserved.</div>
+</footer>
+
+
+</body></html>
