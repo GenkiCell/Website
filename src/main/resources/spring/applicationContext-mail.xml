@@ -8,12 +8,10 @@
 	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
 	
-	    <!-- 使用qq邮箱 -->
     <bean id="javaMailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
         <property name="host" value="${mail.host}"/>
         <property name="protocol" value="${mail.transport.protocol}"/>
         <property name="username" value="${mail.sender}"/>
-        <!-- qq邮箱的授权码，如果是企业邮箱，则使用登录密码 -->
         <property name="password" value="${mail.password}"/>
         <property name="javaMailProperties">
             <props >
