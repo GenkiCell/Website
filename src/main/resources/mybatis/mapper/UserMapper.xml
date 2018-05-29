@@ -14,4 +14,11 @@
     <select id="findByUsername" resultType="io.genkicell.pojo.User">
         select * from user where username=#{username};
     </select>
+   <insert id="regist" parameterType="io.genkicell.pojo.User" useGeneratedKeys="true" keyProperty="id">
+       INSERT INTO user (username, password)
+		VALUES
+		(#{username}, #{password});
+
+        
+        </insert>
 </mapper>

@@ -27,6 +27,11 @@ public class UserServiceImpl implements UserService{
 	
 		return userMapper.findByUsername(email);
 	}
+
+	public Integer regist(User user) {
+		return userMapper.regist(user);
+		
+	}
 	
 
 }

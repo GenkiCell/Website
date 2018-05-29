@@ -22,9 +22,9 @@
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<!-- 前缀 -->
-		<property name="prefix" value="/WEB-INF/html/"></property>
+		<property name="prefix" value="/WEB-INF/jsp/"></property>
 		<!-- 后缀 -->
-		<property name="suffix" value=".html"></property>
+		<property name="suffix" value=".jsp"></property>
 	</bean>
 	<!-- 解决静态资源被拦截的问题 -->
 	<mvc:default-servlet-handler />
