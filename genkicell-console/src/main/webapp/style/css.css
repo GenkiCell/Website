@@ -1,0 +1,71 @@
+@charset "utf-8";
+body{ margin:0 auto; font-size:12px; font-family: "微软雅黑","宋体",Arial, Helvetica, sans-serif; line-height:normal;}
+ul,dl,dd,h1,h2,h3,h4,h5,h6,form,p { padding:0; margin:0;}
+ul { list-style:none;}
+*{ margin:0px; padding:0px;}
+img { border:0px;}
+a { color:#05a; text-decoration:none;}
+a:hover { color:#f00;}
+.clear{ clear:both;}
+#container { width:900px; margin:0 auto;}
+/*-----------------头部开始--------------------*/
+.top{height: 85px;background: #5d6675; position: relative;z-index: 100;}
+/*------------------头部结束------------------*/
+/*-----------------内容开始-------------------*/
+.cont{}
+.cont_left{float: left; width:40vh; background: #eff4f8; height: 100vh; position: fixed;left:0; top:0;} 
+.left_dh{padding-top: 85px; background: #e4eff3;}
+.left_dh h2{font-size: 28px;color: #a4ada9; font-weight: 400; padding: 0 45px; line-height: 90px;border-bottom: 1px solid #d6e2e6;}
+.left_dh li{line-height: 90px;border-bottom: 1px solid #d6e2e6; padding-left: 85px; font-size: 24px;}
+.left_dh a{color: #6e6f6b;}
+.conr_right{width: 100%; height: 500px; padding: 20px 20px 0 20px;box-sizing: border-box;}
+.wby1{ width:200px; height:28px; line-height:28px; padding:0 10px; color:#999; border:1px solid #f2f2f2; font-family:"微软雅黑"; font-size:14px; margin-right: 45px;}
+.btn1{width:88px; height: 30px; font-family: "微软雅黑";font-size: 14px;color: #fff; background: #4a9dd3; border: none; margin-right: 15px;}
+.ssnr{padding-bottom: 25px;}
+.ssnr ul{overflow: hidden;}
+.ssnr li{float: left;}
+.bgys1 td{ line-height: 40px; font-size: 14px; color: #4d4542;}
+.bgys1 a{color: #1f37f3;}
+.bgys1 a:hover{text-decoration: underline;}
+.jsnr{min-height: 500px;}
+.fynr{padding-top: 20px;}
+.fynr ul{text-align: center;}
+.fynr li{display: inline-block; *display: inline;}
+.fynr a{display: inline-block; *display: inline; padding: 5px 10px; background: #d7dadf; font-size: 14px; color: #fff;}
+
+.bgys1 .cknr{color: #999; font-size: 16px;}
+.left_dh .hover a{color: #0055AA;}
+.left_dh a:hover{color: #0055AA;}
+/*====dlym=====*/
+.dlqy{width:100%; height: 100vh; background: #7f8d98;}
+
+.footer{position: fixed;bottom: 0; left:0; width:100%; background: #8a9ca8; height: 110px;z-index: 10;}
+.footer p{line-height: 110px; text-align: center;font-size: 14px; color: #fff;}
+.dlnr{ padding-top: 60px; }
+.dlxq{ -webkit-box-shadow:0 0 10px rgba(0, 0, 0, .5);  
+22       -moz-box-shadow:0 0 10px rgba(0, 0, 0, .5);  
+23       box-shadow:0 0 10px rgba(0, 0, 0, .5);  width:440px;margin: 0 auto; background: #f2f7fb; padding: 20px 30px 0px 30px;-moz-border-radius: 8px; -webkit-border-radius: 8px;border-radius:8px;}
+.dlxq_tit{text-align: center;}
+.dlxq_tit p{color: #5ea9de; line-height: 72px; font-size: 28px; font-weight: 400;}
+.wby2{ line-height: 70px; border: 1px solid #d6dbdf; height: 70px; background: url(../images/a1.jpg) no-repeat 15px center; padding-left: 75px; width:363px; -moz-border-radius: 6px; -webkit-border-radius: 6px;border-radius:6px;font-family: "微软雅黑"; color: #999; font-size: 16px;}
+.wby3{ line-height: 70px; border: 1px solid #d6dbdf; height: 70px; background: url(../images/a2.jpg) no-repeat 15px center; padding-left: 75px; width:363px; -moz-border-radius: 6px; -webkit-border-radius: 6px;border-radius:6px;font-family: "微软雅黑"; color: #999; font-size: 16px;}
+.dlxq_nr li{padding-bottom: 30px;}
+.btn2{height: 70px; background: #5599e0; border: none;color: #fff; font-family: "微软雅黑";font-size: 18px;width:440px;}
+/*------------------内容结束------------------*/
+/*-----------------弹窗开始------------------*/
+.cktc{ background:#fff; width:660px; position:fixed; left:50%; top:20%; margin-left:-320px; padding:25px 0;-webkit-box-shadow:0 0 10px rgba(0, 0, 0, .3);  
+   -moz-box-shadow:0 0 10px rgba(0, 0, 0, .3); 
+   
+       box-shadow:0 0 10px rgba(0, 0, 0, .3); -moz-border-radius: 9px; -webkit-border-radius:9px;border-radius:9px; display:none; }
+.gbnr{ display:block; position:absolute; right:-12px; top:-12px;}
+.screen{ background:rgba(0,0,0,.7); position:fixed; left:0; top:0; width:100%; height:100%; display:none;}
+.cktc ul{ overflow:hidden;}
+.cktc li{ float:left; padding:0 0 0 15px;}
+.cktc ul li img{ width:200px;}
+/*------------------弹窗结束------------------*/
+.iframe{position: absolute;top:85px;left:40vh;bottom:0;right:0;width:calc(100% - 40vh);}
+iframe{width: 100%;height: 100%}
+
+.actived{
+	
+}

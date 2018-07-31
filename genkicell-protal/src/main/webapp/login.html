@@ -1,0 +1,807 @@
+﻿<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Home</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="keywords" content="" />
+        <meta http-equiv="x-dns-prefetch-control" content="on" />
+        <meta name="screen-orientation" content="portrait">
+        <meta name="x5-orientation" content="portrait">
+        <meta name="full-screen" content="yes">
+        <meta name="x5-fullscreen" content="true">
+        <meta name="browsermode" content="application">
+        <meta name="x5-page-mode" content="app">
+        <meta name="msapplication-tap-highlight" content="no" >
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <link href="css/index.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/pubilec.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+        <link rel="stylesheet" media="screen and (max-width:1023px) "  href="css/mobile.css" type="text/css" />  
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/rem.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/jquery-form3.45.0.js"></script>
+        <style type="text/css">
+            article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+        </style>
+    </head>
+
+    <body class="body">
+        <!--弹出层  2018 7 9  开始-->
+          <form action="kycSubmit.do" id="kycForm" method="post">
+          <div class="new_ceng" style="display:none">
+              <div class="ceng"></div>
+
+              <div class="ceng_box">
+                 <div class="c_ceng_box">
+                    <!-- titel start-->
+                    <div class="titel">
+                        <b>KNOW YOUR CUSTOMER (KYC)</b> 
+                        <span class="show_t_a"><i>Terms and Agreemet</i></span>
+                    </div>
+                    <!-- titel end-->
+                  
+                 <ul class="names">
+                    <li class="father">
+                     <div class="p">First Name  <img src="images/Google Chrome.lnk.png" class="clickimg" alt=""></div>
+                      <input type="text" name="firstName" placeholder="Type here" />
+                    </li>
+
+                     <li class="father">
+                     <div class="p">Last Name  <img src="images/Google Chrome.lnk.png" class="clickimg" alt=""></div>
+                      <input type="text" name="lastName" placeholder="Type here" />
+                    </li>
+
+                     <li class="father">
+                     <div class="p">
+                        <span style="float:left;">Gender</span> 
+                        <div class="select select1">
+                          <!-- <span>Select</span>
+                            <ol>
+                                <li><span>Man</span></li>
+                                <li><span>Woman</span></li>
+                            </ol> -->
+                            
+                            <select name="gender" id="gender">
+								  <option value ="male">male</option>
+								  <option value ="female">female</option>
+							</select>
+                        </div>
+                        <img src="images/Google Chrome.lnk.png" class="clickimg" alt=""></div>
+                          <input type="text" placeholder="Type here" style="visibility:hidden;" />
+                        <div class="fixed">
+                            <div class="fff">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </div>
+                        </div>
+                    </li>
+                 </ul>
+
+               <div class="clearfix1" style="clear:both!important;"></div>
+                  
+                <!-- names_sp -->
+                  <ul class="names names_sp ">
+                    <li class="father">
+                         <div class="p clearfix">
+                            <span style="float:left;">Country</span> 
+                            <img src="images/Google Chrome.lnk.png" class="clickimg" alt="">
+                         </div>
+                       
+
+                         <div class="select select_sp">
+                          <!--  <span>Country</span>
+                                <ol>
+                                    <li><span>Man</span></li>
+                                    <li><span>Woman</span></li>
+                                </ol> -->
+                              <select name="countryId" id="country">
+								  <option value ="male">male</option>
+								  <option value ="female">female</option>
+							</select>
+                         </div>
+
+                              <input type="text" placeholder="Type here" style="visibility:hidden;" />
+                            <div class="fixed">
+                                <div class="fff">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </div>
+                            </div>
+                    </li>
+
+                     <li class="father">
+                         <div class="p clearfix">
+                            <span style="float:left;">Nationality</span> 
+                            <img src="images/Google Chrome.lnk.png" class="clickimg" alt="">
+                         </div>
+                       
+
+                         <div class="select select_sp">
+                           <!-- <span>Nationality</span>
+                                <ol>
+                                    <li><span>Man</span></li>
+                                    <li><span>Woman</span></li>
+                                </ol> -->
+                                <select name="nationalityid" id="nationality">
+								  <option value ="male">male</option>
+								  <option value ="female">female</option>
+							</select>
+                         </div>
+
+                              <input type="text" placeholder="Type here"  style="visibility:hidden;" />
+                            <div class="fixed">
+                                <div class="fff">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </div>
+                            </div>
+                    </li>
+                   
+                    <li class="father specli">
+                         <div class="div_ino"><div class="fff"><input type="text"  name="address" placeholder="Type here" /></div></div>
+                           <!-- <div class="div_ino"><div class="fff"><input type="text"  name="address" placeholder="Type here" /></div></div> -->
+                    </li>
+                 </ul>
+
+                 <div class="clearfix1" style="clear:both!important;"></div>
+               <!--上传文件组-->
+                   <ul class="names">
+                    <li class="father">
+                         <div class="p">ID photo <img src="images/Google Chrome.lnk.png" class="clickimg" alt=""></div>
+                         <p class="huisw">(Front) </p>
+                         <div class="up_imgfile">
+                            <img src="" class="show_img" alt="" id="imgUrlfront" />
+                            <div class="buttonfile"><input type="file" name="mpf" onchange="uploadPic('imgUrlfront')">
+                            	<input type="hidden" name="imgUrlfront" />
+                            </div>
+                         </div>
+
+                          <div class="fixed">
+                                <div class="fff">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </div>
+                            </div>
+                    </li>
+
+                    <li class="father">
+                         <div class="p">ID photo <img src="images/Google Chrome.lnk.png" class="clickimg" alt=""></div>
+                         <p class="huisw">(Back)</p>
+                         <div class="up_imgfile">
+                            <img src="" class="show_img" alt="" id="imgUrlBack" />
+                            <div class="buttonfile"><input type="file" name="mpf" onchange="uploadPic('imgUrlBack')">
+                            <input type="hidden" name="imgUrlBack" />
+                            </div>
+                         </div>
+
+                          <div class="fixed">
+                                <div class="fff">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </div>
+                            </div>
+                    </li>
+
+                    <li class="father">
+                         <div class="p">A selfie with holding ID <img src="images/Google Chrome.lnk.png" class="clickimg" alt=""></div>
+                         <p class="huisw">(Front) </p>
+                         <div class="up_imgfile">
+                            <img src="" class="show_img" alt=""  id="imgUrlSelf" />
+                            <div class="buttonfile"><input type="file" name="mpf" onchange="uploadPic('imgUrlSelf')">
+                            	<input type="hidden" name="imgUrlSelf"/>
+                            </div>
+                         </div>
+
+                          <div class="fixed">
+                                <div class="fff">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </div>
+                            </div>
+                    </li>
+                 </ul>
+                  <div class="clearfix1" style="clear:both!important;"></div>
+                 
+                   <div class="clearfix1" style="clear:both!important;"></div>
+                 <div class="tjbtn"><img src="images/copy Button.png" alt="" onclick="submitForm()"></div>
+              </div>
+          </div>
+      </div>
+      
+      </form>
+        <!--弹出层  2018 7 9  结束-->
+
+        <!-- header -->
+        <div class="pc divheader">
+            <div class="divmain">
+                <div class="divlogo"><img src="images/login_logo.png" alt="#" /></div>
+                <ul class="langul">
+                    <li class="langageli selects">Language</li>
+
+                    <li class="lgpicli">
+                    	<a href="#">
+	                    	<img src="images/png01.png" alt="#" />
+	                    </a>
+                    </li>
+                    <div class="langluge" style="display: none;margin-top: 30px">
+                            <ul>
+                                <li><a href="index.html"><span>●</span>JAPANESE</a></li>
+                                <!--   <li><span>●</span>Language</li>
+                                  <li><span>●</span>Language</li>
+                                  <li><span>●</span>Language</li>
+                                  <li><span>●</span>Language</li>
+                                  <li><span>●</span>Language</li> -->
+                            </ul>
+                        </div>
+                    <li class="langageli">Whitepaper</li><li class="lgpicli01"><a href="#"><img src="images/png02.png" alt="#" /></a></li>
+                </ul>
+                <ul class="headerul">
+                    <li class="lgpicli"><a href="#"><img src="images/png03.png" alt="#" /></a></li><li class="emalli">emailnameggl@gglbch.com</li>
+                    <li class="langageli setting">Settings</li><li class="lgpicli02 settingpic"><a href="#"><img src="images/png04.png" alt="#" /></a></li>
+
+                    <li class="menuhli logout"><a >Log out</a></li>
+                    <li class="idtel"><span>ID</span><span class="idnum"> 000-000-000</span></li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="moble divheader">
+            <div class="divmain">
+                <div class="divlogo"><img src="images/11.png" alt="#" /></div>
+                <ul class="langul">
+                    <li class="langageli selects">Language</li><li class="lgpicli"><a href="#"><img src="images/png01.png" alt="#" /></a></li>
+                    <div class="m_langluge">
+		                <ul>
+		                    <li><a  href="index.html"><span>●</span>JAPANESE</a></li>
+		                    <!--    <li><span>●</span>Language</li>
+		                       <li><span>●</span>Language</li>
+		                       <li><span>●</span>Language</li>
+		                       <li><span>●</span>Language</li>
+		                       <li><span>●</span>Language</li> -->
+		                </ul>
+		            </div>
+                </ul>
+                <ul class="headerul">
+                   
+                    <li class="lgpicli02 logout"><a href="#"><img src="images/png04.png" alt="#" /></a></li>
+                     <li class="lgpicli02 setting"><a href="#"><img src="images/png04.png" alt="#" /></a></li>
+                    <li class="lgpicli02 menu"><a href="#"><img src="images/png04.png" alt="#" /></a>
+
+                    	<div class="m_menu">
+			                <ul>
+			                
+			                   <li><a ><span>●</span>KYC</a></li>
+			                   <li><a ><span>●</span>Whitepaper</a></li>
+			                   <li class="m_menuhli logout"><a>Log out</a></li>
+			                   <li class="m_menuhli"><a>Sign up</a></li>
+			                </ul>
+			            </div>
+                    </li>
+                       <li class="lgpicli02 close"><a href="#"><img src="images/png04.png" alt="#" /></a></li>
+                   
+                </ul>
+ 
+            </div>
+        </div>
+        <div class="divmain">
+            <div class="divdate time">
+                <ul class="datetielul">
+                    <li>This stage finishes in:</li>
+                </ul>
+                <div class="divstage01">
+                    <div class="countdown">
+                        <div class="num ">
+                            <span class="">10</span>
+                            <span class="distinguish">days</span>
+                        </div>
+						
+                        <div class="num ">
+                            <span class="">21</span>
+                            <span class="distinguish">hours</span>
+                        </div>
+                        <div class="num ">
+                            <span class="">23</span>
+                            <span class="distinguish">minutes</span>
+                        </div>
+                        <div class="num ">
+                            <span class="">12</span>
+                            <span class="distinguish">seconds</span>
+                        </div>
+                    </div>
+                    <ul class="tbtsmul">
+                        <li class="tbtieli">This stage total: <i>100000$ / 100000$</i> <span>25%</span></li>
+                    </ul>
+                    <ul class="jinduul">
+                        <li class="jinduli"></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="divdater progress">
+                <ul class="datetielul">
+                    <li>Investment:</li>
+                </ul>
+                <div class="divstage">
+                    <div class="divquan">
+                        <ul class="qanul bgou">
+                           
+                        </ul>
+                        <ul class="colorul">
+                            <li></li>
+                        </ul>
+                        <ul class="qanul">
+                            <li class="gou"><img src="images/gou.png" alt="#" /></li>
+                        </ul>
+                        <ul class="colorul">
+                            <li></li>
+                        </ul>
+                        <ul class="qanul">
+                            <li class="gou"><img src="images/gou.png" alt="#" /></li>
+                        </ul>
+                        <ul class="qubtul">
+                            <li class="qubtli">KYC<br />documents</li>
+                            <li class="qubtli01">KYC<br />documents</li>
+                            <li class="qubtli01">Done</li>
+                        </ul>
+                    </div>
+                    <ul class="jdmul gtk">
+                        <li>GO TO KYC</li>
+                    </ul>
+
+                </div>
+            </div>
+			<!--
+            <ul class="histielul">
+                <li>History:</li>
+            </ul>
+            <div class="divdatesj">            
+                <div class="divstagesj">
+                    <ul class="datehsul">
+                        <li class="datelli">18/10/18</li>
+                        <li class="colorli"></li>
+                        <li class="contli">Lorem ipsum dolor sit amet,consectetuer adipiscing elit,sed diam nonummy nibh euismod tincid</li>
+                        <li class="moneyli">+6700$</li>
+                    </ul>
+                    <ul class="datehsul">
+                        <li class="datelli">18/10/18</li>
+                        <li class="colorli"></li>
+                        <li class="contli">Lorem ipsum dolor sit amet,consectetuer adipiscing elit,sed diam nonummy nibh euismod tincid</li>
+                        <li class="moneyli">+6700$</li>
+                    </ul>
+                    <ul class="datehsul">
+                        <li class="datelli">18/10/18</li>
+                        <li class="colorli"></li>
+                        <li class="contli">Lorem ipsum dolor sit amet,consectetuer adipiscing elit,sed diam nonummy nibh euismod tincid</li>
+                        <li class="moneyli">+6700$</li>
+                    </ul>
+                </div>
+            </div>
+			-->
+        </div>
+           <!--footer-->
+        <div class="footer">
+            <div class="width">
+                <div class="sap">
+                    <ul>
+                        <li><a href="https://t.me/GenkicellOfficalGroup"><img src="images/end-3.png" alt=""></a></li>
+                        <li><a href="https://twitter.com/@Genkicell"><img src="images/end-2.png" alt=""></a></li>
+                        <li><a href="https://www.facebook.com/Genkicellchain"><img src="images/end-fb.png" alt=""></a></li>
+                        <li><a href="https://www.reddit.com/r/Genkicell/"><img src="images/end-1.png" alt=""></a></li>
+                        <li><a href="https://medium.com/@Genkicell"><img src="images/end-mpng.png" alt=""></a></li>
+                         <li><a target="_blank" href="https://m.weibo.cn/u/6562176294"><img src="images/weibo.png" alt=""></a></li>
+                    </ul>
+                </div>
+
+                <div class="sap"><img src="images/end-logo.png" alt=""></div>
+
+                <div class="sap">GCL Foundation Ltd. All rights reserved <p class="">2018</p></div>
+            </div>
+        </div>
+
+        <div class="dl change">
+            <div class="ceng"></div>
+            <div class="change commonlogin">
+
+                <div class="box">
+                    <ul>
+                        <li class="cur_a dl_li">
+                            <a href="javascript:;">Change Password</a>
+                            <div class="dl_div"></div>
+                        </li>
+
+                        <li class="zc">
+                            <a href="javascript:;">2-Step Verification</a>
+                            <div class="zc_div"></div>
+                        </li>
+                    </ul>					
+                    <div class='commondiv'>
+                        <form id="registerForm">
+                            <ol>
+                                <li id="errorMsg2"></li>
+                                <li>
+                                    <p>Current password</p>
+                                    <input type="text" id="registEmail" name="password" placeholder="Current password" />
+                                    <div class="bg_div"></div>
+                                </li>
+                                <li>
+                                    <p>New Password</p>
+                                    <input type="password" name="newpwd" placeholder="New Password" />
+                                    <div class="bg_div"></div>
+                                </li>
+                                <li>
+                                    <p>Confirmed New Password</p>
+                                    <input type="password" name="aginnewpwd" placeholder="Confirmed New Password" />
+                                    <div class="bg_div"></div>
+                                </li>
+                            </ol>
+
+                            <input type="button" id="register" value="register" class="btns" />
+
+                        </form>
+                    </div>
+                </div>
+                <img src="images/close.png" alt="" class="close" />
+            </div>
+        </div>
+        <div class="dl zhuce newpwd" >
+            <div class="ceng"></div>
+            <div class=" commonlogin">
+
+                <div class="box">
+                    <ul>
+                        <li >
+                            <a href="javascript:;">Change Password</a>
+                            <div class="zc_div"></div>
+                        </li>
+                        <li class="">
+
+                            <a href="javascript:;">2-Step Verification</a>
+                           
+                             <div class='dl_div'></div>
+                        </li>
+                    </ul>
+                    <div class='commondiv'>
+                        <form id="inForm">
+                            <ol>
+                                <li>
+                                    <p id="errorMsg"></p>
+                                </li>
+                                <li>
+                                    <p>Current password</p>
+                                    <input type="text" name="username" placeholder="Current password" />
+                                    <div class="bg_div"></div>
+                                </li>
+                                <li> 
+                                    <p>New Password</p>
+                                    <input type="password" name="password" placeholder="New Password" />
+                                    <div class="bg_div"></div>
+                                </li>
+                                <li> 
+                                    <p>Confirmed New Password</p>
+                                    <input type="password" name="password" placeholder="Confirmed New Password" />
+                                    <div class="bg_div"></div>
+                                </li>
+                            </ol>
+                            <input type="button"  value="sign in" id="signin" class="btns" />
+                        </form>
+
+                    </div>
+                </div>
+                <img src="images/close.png" alt="" class="close" />
+            </div>
+        </div>
+
+        <div class="dl zhuce " >
+            <div class="ceng"></div>
+            <div class=" commonlogin">
+
+                <div class="box">
+                    <ul>
+                        <li class="">
+                            <a href="javascript:;">Change Password</a>
+                             <div class='dl_div'></div>
+                        </li>
+                        <li class=" ">
+
+                            <a href="javascript:;">2-Step Verification</a>
+                           <div class="zc_div"></div>
+                            
+                        </li>
+                    </ul>
+                    <div class='commondiv'>
+                        <form id="inForm">
+                            <ol>
+                                <li>
+                                    <p id="errorMsg"></p>
+                                </li>
+                                <li>
+                                    <p>Verification</p>
+                                    <input type="text" name="username" placeholder="Verification" />
+                                    <div class="bg_div"></div>
+                                </li>
+                            </ol>
+                            <input type="button"  value="sign in" id="signin" class="btns" />
+                        </form>
+
+                    </div>
+                </div>
+                <img src="images/close.png" alt="" class="close" />
+            </div>
+        </div>
+
+
+        <div class="dl kycnum">
+            <div class="ceng"></div>
+
+            <div class="login commonlogin"> 
+
+
+                <div class="box">
+                    <div class="commondiv">
+                        <ol class="padding">
+                            <li>
+                                <p>54545445463564</p>
+                                <div class="bg_div"></div>
+                            </li>
+                        </ol>
+                        <input type="button"  value="Copy" class="btns" />
+                    </div>
+                </div>
+
+                <img src="images/close.png" alt="" class="close" />
+            </div>
+        </div>
+       
+         <div class="dl confirmexit">
+            <div class="ceng"></div>
+
+            <div class="login commonlogin"> 
+
+
+                <div class="box">
+                    <div class="commondiv">
+                        <ol class="padding">
+                            <li>
+                                <p>Do you make sure to quit?</p>
+                                
+                            </li>
+                        </ol>
+                        <input type="button"  value="YES" class="btns" />
+                    </div>
+                </div>
+
+                <img src="images/close.png" alt="" class="close" />
+            </div>
+        </div>
+
+         <div class="dl zhuce " >
+            <div class="ceng"></div>
+            <div class=" commonlogin">
+
+                <div class="box">
+                    <ul>
+                        <li class="">
+                            <a href="javascript:;">Change Password</a>
+                             <div class='dl_div'></div>
+                        </li>
+                        <li class=" ">
+
+                            <a href="javascript:;">2-Step Verification</a>
+                           <div class="zc_div"></div>
+                            
+                        </li>
+                    </ul>
+                    <div class='commondiv'>
+                        <form id="inForm">
+                            <ol>
+                                <li>
+                                    <p id="errorMsg"></p>
+                                </li>
+                                <li>
+                                    <p>Verification</p>
+                                    <input type="text" name="username" placeholder="Verification" />
+                                    <div class="bg_div"></div>
+                                </li>
+                            </ol>
+                            <input type="button"  value="sign in" id="signin" class="btns" />
+                        </form>
+
+                    </div>
+                </div>
+                <img src="images/close.png" alt="" class="close" />
+            </div>
+        </div>
+
+
+		<div class="term_agreemet" style="display: none;">
+		<div class="ceng"></div>
+		<div class="condition_box">
+			<p class="gb">
+				<span>Terms and Agreemet</span><img src="images/close.png"
+					class="guanbi" alt="">
+			</p>
+			<div class="information"></div>
+			<div class="right">
+						<p style="margin-top:2px;margin-bottom:6px;margin-left:0;text-indent:0;text-align:center;background:rgb(255,255,255)">
+				<span style="font-family:Arial;color:rgb(81,91,105);font-size:0.15rem">1.&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.15rem">Know Your Customer (KYC) &amp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.15rem"><br/></span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.15rem">Anti-Money Laundering (AML) Policy</span>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">The purpose of this KYC and AML policy (the “</span><strong><span style=";font-family:Arial;color:rgb(81,91,105);font-weight:bold;font-size:0.07rem">KYC/AML Policy</span></strong><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">”) is to inform you of how GenkicellChain protects itself from involvement in money laundering or suspicious activity. This KYC/AML Policy shall form part of our terms and conditions (the “</span><strong><span style=";font-family:Arial;color:rgb(81,91,105);font-weight:bold;font-size:0.07rem">Agreement</span></strong><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">”). Each term starting with a capital letter shall have the meaning ascribed to it in the terms of services of the Agreement.</span>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">The KYC/AML Policy shall consist in the following:</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">Performing an enterprise-wide risk assessment to determine the risk profile of the Company</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">Establishing AML policies and procedures</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">Implementing internal controls throughout its operations that are designed to mitigate risks of money laundering</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">Performing KYC procedures on all users</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">Designating a Compliance Officer with full responsibility for the AML Program</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">Conducting an annual AML audit</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">Providing AML training to all employees</span>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<strong><span style=";font-family:Arial;color:rgb(81,91,105);font-weight:bold;font-size:0.07rem">POLICIES AND PROCEDURES</span></strong>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">This KYC/AML Policy will be provided to all employees of the Company. Each employee will acknowledge the KYC/AML Policy in writing. All policies and procedures will be reviewed and updated or revised as needed, but no less often than annually.</span>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<strong><span style=";font-family:Arial;color:rgb(81,91,105);font-weight:bold;font-size:0.07rem">INTERNAL CONTROLS</span></strong>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">The Company has developed and implemented internal controls for the purpose of ensuring that all of its operations comply with all AML legal requirements and that all required reports are made on a timely basis.</span>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<strong><span style=";font-family:Arial;color:rgb(81,91,105);font-weight:bold;font-size:0.07rem">TRAINING</span></strong>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">All of the officers and employees of the Company are required to receive AML training at least annually. New employees will receive appropriate AML training within 30 days of their hire date. Training for all employees will include not only the legal elements of AML laws and regulations but will also cover job specific applications of these laws. Ongoing training will be provided and updated regularly to reflect current developments and changes to laws and regulations.</span>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<strong><span style=";font-family:Arial;color:rgb(81,91,105);font-weight:bold;font-size:0.07rem">CUSTOMER IDENTIFICATION</span></strong>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">It is the Company’s policy to ensure that it has reasonably identified each customer who uses the Company’s Platform. Users may be identified using a variety of methods.</span>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<strong><span style=";font-family:Arial;color:rgb(81,91,105);font-weight:bold;font-size:0.07rem">PROOF OF IDENTIFICATION</span></strong>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<strong><span style=";font-family:Arial;color:rgb(81,91,105);font-weight:bold;font-size:0.07rem">Individual</span></strong>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">Name</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">Date and place of birth</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">Residence address and mailing address if different (PO Box alone will not be acceptable)</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">Official issued identification number (e.g., passport number, social security number, employee identification number or individual taxpayer identification number)</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">Copy of valid photo identification of the principal(s) involved with the GenkicellChain Account (e.g., driver’s license, passport, alien identification card)</span>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<strong><span style=";font-family:Arial;color:rgb(81,91,105);font-weight:bold;font-size:0.07rem">VERIFICATION</span></strong>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">Documents used in opening an account relationship must be verified prior to establishing the GenkicellChain Account. Verification of identity will require multi-factor authentication, layered security and other controls to ensure a meaningful user identity confirmation process based on GenkicellChain Account size or other factors.</span>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">The following are examples of verification methods the Company may use:</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">Obtaining proof of address, such as a copy of a utility bill or bank statement from the GenkicellChain Account holder;</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">Comparing the identifying information with information available from a trusted third party source, such as a credit report from a consumer-reporting agency, Veratad, Lexus Nexus Instant ID;</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">Analyzing whether there is logical consistency between the identifying information provided, such as the customer’s name, street address, ZIP code, telephone number, date of birth, and social security number (logical verification);</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">Utilizing knowledge-based challenge questions;</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">Utilizing complex device identification (such as “digital fingerprints” or geo-location checks);</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">Obtaining a notarized copy of an individual’s birth certificate for valid identification; or</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">When the type of GenkicellChain Account increases the risk that the Company will not be able to verify the true identity of the customer through documents is confirmed the GenkicellChain Account will be closed.</span>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<strong><span style=";font-family:Arial;color:rgb(81,91,105);font-weight:bold;font-size:0.07rem">SUSPICIOUS TRANSACTION AND ACTIVITY REPORTS</span></strong>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">The Company will diligently monitor transactions for suspicious activity. Transactions that are unusual will be carefully reviewed to determine if it appears that they make no apparent sense or appear to be for an unlawful purpose. Internal controls will be implemented so that an ongoing monitoring system is in place to detect such activity as it occurs. When such suspicious activity is detected, the Company will determine whether a filing with any law enforcement authority is necessary.</span>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">Suspicious activity can include more than just suspected money laundering attempts. Activity may be suspicious, and the Company may wish to make a filing with a law enforcement authority, even if no money is lost as a result of the transaction.</span>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">The Company will initially make the decision of whether a transaction is potentially suspicious. Once the Company has finished the review of the transaction details, he or she will consult with the Company’s senior management to make the decision as to whether the transaction meets the definition of suspicious transaction or activity and whether any filings with law enforcement authorities should be filed.</span>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">The Company will maintain a copy of the filing as well as all backup documentation. The fact that a filing has been made is confidential. No one, other than those involved in the investigation and reporting should be told of its existence. In no event should the parties involved in the suspicious activity be told of the filing. The Company may inform the Company’s Board of the filing and the underlying transaction.</span>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<strong><span style=";font-family:Arial;color:rgb(81,91,105);font-weight:bold;font-size:0.07rem">REPORTING REQUIREMENT</span></strong>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">Reasonable procedures for maintaining records of the information used to verify a person’s name; address and other identifying information are required under this Policy. The following are required steps in the record keeping process:</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">The Company is required to maintain a record of identifying information provided by the customer.</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">Where the Company relies upon a document to verify identity, the Company must maintain a copy of the document that the Company relied on that clearly evidences the type of document and any identifying information it may contain.</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">The Company must also record the methods and result of any additional measures undertaken to verify the identity of the customer.</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">The Company must record the resolution of any discrepancy in the identifying information obtained.</span>
+			</p>
+			<p style="margin-top:7px;margin-bottom:7px;margin-left:48px;margin-top:auto;margin-bottom:auto;text-align:left;background:rgb(255,255,255)">
+				<span style="font-family:Symbol;color:rgb(81,91,105);font-size:0.04rem">·&nbsp;</span><span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">All transaction and identification records will be maintained for a minimum period of five years.</span>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<strong><span style=";font-family:Arial;color:rgb(81,91,105);font-weight:bold;font-size:0.07rem">AML AUDIT</span></strong>
+			</p>
+			<p style="margin-bottom:20px;text-align:left;background:rgb(255,255,255)">
+				<span style=";font-family:Arial;color:rgb(81,91,105);font-size:0.07rem">The Company is responsible for directing the annual AML audit of the Company’s operations. The independent audit will be conducted by an independent third party or by Company personnel. The Company will develop corrective action plans for all issues that are raised in the audit and will provide the audit report and all corrective action plans to the Company’s senior management for review. Reports of the corrective action will continue until all are resolved.</span>
+			</p>
+			<p>
+				<span style=";font-family:Arial;font-size:14px">&nbsp;</span>
+			</p>
+			<p>
+				<br/>
+			</p>
+			</div>
+		</div>
+	</div>
+    </body>
+    <script>
+	$(function(){
+		$('.gtk').click(function(){
+			$('.new_ceng').show();
+		})
+		$('.logout').click(function(){
+			$('.confirmexit').show();
+		})
+		$('.show_t_a').click(function(){
+			$('.term_agreemet').show();
+		})
+	})
+	
+    function submitForm(){
+    	$("#kycForm").submit();
+    
+    };
+	function uploadPic(id) {
+		//alert(123);
+		var options = {
+			url : "/uploadFile.do",
+			type : "post",
+			dataType : "json",
+			success : function(data) {
+				//设置图片的回显属性，来回显图片
+				alert(data.path);
+				$("#"+id+"").attr("src", data.path);
+				//设置图片的在表单提交后的值
+				$("input[name="+id+"]").val(data.path);
+			}
+		}
+       //异步提交表单
+		$("#kycForm").ajaxSubmit(options); 
+		$("input[name=mpf]").val(""); 
+	}
+</script>
+    
+
+</html>

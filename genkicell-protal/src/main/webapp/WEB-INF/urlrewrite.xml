@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlrewrite>
+  <rule>
+      <name>seo redirect</name>
+      <from>/genkicell.io</from>
+      <to type="permanent-redirect" last="true">http://www.genkicell.io/$1</to>
+  </rule>
+</urlrewrite>

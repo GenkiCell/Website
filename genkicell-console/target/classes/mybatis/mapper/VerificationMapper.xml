@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--   namespace 理论上随意命名 
+		因为mybatis动态代理的使用
+	          书写时，要将namespace指定为接口的全路径
+-->
+<mapper namespace="io.genkicell.dao.VerificationMapper">
+
+ <resultMap type="io.genkicell.pojo.Verification" id="verificationList">
+      <result column="id" property="id"/>
+      <result column="userid"  property="userid"/>
+      <result column="first_name"  property="firstName"/>
+      <result column="last_name" property="lastName"/>
+      <result column="age" property="age"/>
+      <result column="gender"  property="gender"/>
+      <result column="nationalityid" property="nationalityid"/>
+      <result column="address"  property="address"/>        
+      <result column="imgUrlfront"  property="imgUrlfront"/>        
+      <result column="imgUrlBack"  property="imgUrlBack"/>        
+      <result column="imgUrlSelf"  property="imgUrlSelf"/>        
+      <result column="status"  property="status"/>        
+      <result column="updatetime"  property="updatetime"/>        
+</resultMap>
+	
+    <select id="findUncheck" resultMap="verificationList" >
+        SELECT * FROM verification where status = 0;
+    </select>
+    <select id="findeByUserId" resultType="io.genkicell.pojo.Verification" >
+        SELECT * FROM verification where userId = #{userId};
+    </select>
+ <!--   <insert id="save" parameterType="io.genkicell.pojo.Verification" useGeneratedKeys="true" keyProperty="id">
+	);
+       </insert> -->
+</mapper>
